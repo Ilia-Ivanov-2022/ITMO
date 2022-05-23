@@ -1,3 +1,5 @@
-# Lab 4, Exercise 2
+# Lab 4
+Metgods
 
+## Exercise 2
 Method params transferred with ref.
