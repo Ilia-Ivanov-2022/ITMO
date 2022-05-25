@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2022.Lab1.Exer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2022.Lab1.Exercise4.Divider", "Lab1\Exercise4\ITMO.CSCourse2022.Lab1.Exercise4.Divider.csproj", "{476F12D7-DA63-4B15-BCFA-758D94E2EBC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2022.Lab2.Exercise1.Starter.BankAccount", "Lab2\Exercise1.Starter.BankAccount.csproj", "{22047EBC-D9ED-487E-ADE6-A1174BDF404C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2022.Lab2.Exercise1.Starter.BankAccount", "Lab2\Exercise1\ITMO.CSCourse2022.Lab2.Exercise1.Starter.BankAccount.csproj", "{22047EBC-D9ED-487E-ADE6-A1174BDF404C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2022.Lab2.Exercise2to3.Starter.StructType", "Lab2\Exercise2to3.Starter.StructType.csproj", "{03003CE6-D345-42DD-ABE3-07C4548FF8C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2022.Lab2.Exercise2to3.Starter.StructType", "Lab2\Exerceses2to3\ITMO.CSCourse2022.Lab2.Exercise2to3.Starter.StructType.csproj", "{03003CE6-D345-42DD-ABE3-07C4548FF8C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
