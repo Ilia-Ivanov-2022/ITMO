@@ -2,9 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDetails", "FileDetails\FileDetails.csproj", "{F905EADE-0F74-4696-B4B0-E3DEA3D1375A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDetails", "Exercise1.FileDetails\FileDetails.csproj", "{F905EADE-0F74-4696-B4B0-E3DEA3D1375A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MATRIXMULTIPLY", "MATRIXMULTIPLY\MATRIXMULTIPLY.CSPROJ", "{FD3B3DFD-A13D-4AF4-9B7C-26591D404909}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MATRIXMULTIPLY", "Exercise1.MATRIXMULTIPLY\MATRIXMULTIPLY.CSPROJ", "{FD3B3DFD-A13D-4AF4-9B7C-26591D404909}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
