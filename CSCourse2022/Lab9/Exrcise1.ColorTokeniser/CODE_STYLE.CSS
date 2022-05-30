@@ -1,0 +1,47 @@
+
+BODY
+{
+	margin: 4%; 
+}
+
+PRE.CODE
+{
+	background-color: yellow; 
+	color: black;
+
+	font-family: "Courier New", Courier;
+	font-weight: bold;
+   	font-size: 10pt;
+
+	padding: 0.2em 0.4em;
+	border-right: 3 solid gray;
+	border-bottom: 3 solid gray;    
+}
+
+SPAN.LINE_NUMBER
+{
+    background-color: white;
+    color: gray;
+}
+
+SPAN.DIRECTIVE
+{
+	color: gray;
+}
+
+SPAN.COMMENT
+{
+	color: green;
+	font-style: italic;
+}
+
+SPAN.IDENTIFIER
+{
+	color: black;
+}
+
+SPAN.KEYWORD
+{
+	color: blue;
+}
+

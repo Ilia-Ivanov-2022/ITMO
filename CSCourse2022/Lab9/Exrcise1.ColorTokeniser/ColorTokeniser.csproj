@@ -1,0 +1,155 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>ColorTokeniser</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Flow</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE32Nav30</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <ProjectGuid>{E90F222B-6077-40A5-80AD-A200D1FDCF78}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>0</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>0</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <Name>mscorlib</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="directive_token.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="html_token_visitor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="identifier_token.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Itoken.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Itoken_visitor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="keyword_token.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="line_end_token.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="line_start_token.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="multi_line_comment_token.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="null_token_visitor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="one_line_comment_token.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="other_token.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="position.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source_file.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="token.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="whitespace_token.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
