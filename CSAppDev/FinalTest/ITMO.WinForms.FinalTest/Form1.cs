@@ -12,16 +12,6 @@ using System.Windows.Forms;
 
 namespace ITMO.WinForms.FinalTest
 {
-    // enumeration for work with our table
-    enum RowStatus
-    {
-        Existed,
-        New,
-        Updated,
-        Deleted,
-        ModifiedNew
-    }
-
     public partial class Form1 : Form
     {
         // connect class clsDataBaseMSSQL to Form1
@@ -43,7 +33,6 @@ namespace ITMO.WinForms.FinalTest
             dataGridView1.Columns.Add("Number", "Quantity");
             dataGridView1.Columns.Add("Price", "Price");
             dataGridView1.Columns.Add("Discount", "Discount");
-            dataGridView1.Columns.Add("IsNew", String.Empty);
         }
 
         // reading data from DataBase by a single row
@@ -53,8 +42,7 @@ namespace ITMO.WinForms.FinalTest
                         myRecord.GetString(1),
                         myRecord.GetInt64(2), 
                         myRecord.GetDecimal(3), 
-                        myRecord.GetDecimal(4), 
-                        RowStatus.ModifiedNew);
+                        myRecord.GetDecimal(4));
         }
 
         // fill up dataGridView1 with records from ReadSingleRow
