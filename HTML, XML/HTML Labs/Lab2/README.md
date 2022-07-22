@@ -7,4 +7,4 @@
 5. HTML Lists. Unordered.<br/>
 6. HTML ordered lists.<br/>
 7. HTML description list.<br/>
-8. Exercise with embedded lists.
+8. Exercise with embedded lists - 'findings.html'.
