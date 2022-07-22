@@ -1,4 +1,4 @@
-# HTML Basics
+# Lab 1. HTML Basics
 
 ## HTML Structure
 1. Creation of a HTML page.<br>
