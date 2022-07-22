@@ -1,6 +1,6 @@
-#HTML Basics
+# HTML Basics
 
-##HTML Structure
+## HTML Structure
 1. Creation of a HTML page.<br>
 2. Upper level tags and headers.<br>
 3. HTML tags attributes.<br>
