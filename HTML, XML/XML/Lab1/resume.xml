@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<resume>
+	<candidate id="001">
+		<FirstName>Peter</FirstName>
+		<LastName>Romanov</LastName>
+		<MiddleName>Alexeevich</MiddleName>
+		<DOB>09.06.1672</DOB>
+		<WorkPlace>Russia State Government</WorkPlace>
+		<Position>Tchar</Position>
+		<Education>High School</Education>
+		<Address>Zaiatchii Isle, St.Petersburg, Russia</Address>
+		<Phone>None</Phone>
+		<FamilyStatus>Married</FamilyStatus>
+		<DesiredSalary currency="RUB">WTF</DesiredSalary>
+	</candidate>
+	<candidate id="002">
+		<FirstName>Nikolay</FirstName>
+		<LastName>Nikulin</LastName>
+		<MiddleName>Nikolaevich</MiddleName>
+		<DOB>20.06.1995</DOB>
+		<WorkPlace>Fontanka Ltd</WorkPlace>
+		<Position>Manager</Position>
+		<Education>High School</Education>
+		<Address>Some street, St.Petersburg, Russia</Address>
+		<Phone>9992223322</Phone>
+		<FamilyStatus>Married</FamilyStatus>
+		<DesiredSalary currency="RUB">90000</DesiredSalary>
+	</candidate>
+	<candidate id="003">
+		<FirstName>Maria</FirstName>
+		<LastName>Volkova</LastName>
+		<MiddleName>Leonidovna</MiddleName>
+		<DOB>12.01.1976</DOB>
+		<WorkPlace>Trust</WorkPlace>
+		<Position>Director</Position>
+		<Education>Colledge</Education>
+		<Address>Another street, St.Petersburg, Russia</Address>
+		<Phone>7529654875</Phone>
+		<FamilyStatus>Married</FamilyStatus>
+		<DesiredSalary currency="RUB">190000</DesiredSalary>
+	</candidate>
+</resume>

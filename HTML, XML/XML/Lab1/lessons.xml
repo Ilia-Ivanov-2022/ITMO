@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Courses>
+	<Course id="01">
+		<Subject>Development Foundation</Subject>
+		<StartDate>28.03.2022</StartDate>
+		<EndDate>15.04.2022</EndDate>
+		<Lecturer>Smolyaninov A.V.</Lecturer>
+		<Duration time="Hours">50</Duration>
+		<Score>Credit</Score>
+	</Course>
+	<Course id="02">
+		<Subject>Data Base Induction</Subject>
+		<StartDate>18.04.2022</StartDate>
+		<EndDate>28.04.2022</EndDate>
+		<Lecturer>Yamschikov D.V.</Lecturer>
+		<Duration time="Hours">30</Duration>
+		<Score>Credit</Score>
+	</Course>
+	<Course id="03">
+		<Subject>C Sharp coding</Subject>
+		<StartDate>11.05.2022</StartDate>
+		<EndDate>31.05.2022</EndDate>
+		<Lecturer>Smolyaninov A.V.</Lecturer>
+		<Duration time="Hours">50</Duration>
+		<Score>Credit</Score>
+	</Course>
+	<Course id="04">
+		<Subject>Transact-SQL and MS SQL Server Development</Subject>
+		<StartDate>02.06.2022</StartDate>
+		<EndDate>24.06.2022</EndDate>
+		<Lecturer>Yamschikov D.V.</Lecturer>
+		<Duration time="Hours">65</Duration>
+		<Score>Exam</Score>
+	</Course>
+	<Course id="05">
+		<Subject>C Sharp Windows Application Development</Subject>
+		<StartDate>27.06.2022</StartDate>
+		<EndDate>18.07.2022</EndDate>
+		<Lecturer>Smolyaninov A.V.</Lecturer>
+		<Duration time="Hours">50</Duration>
+		<Score>Exam</Score>
+	</Course>
+	<Course id="06">
+		<Subject>HTML, XML Basics</Subject>
+		<StartDate>20.07.2022</StartDate>
+		<EndDate>27.07.2022</EndDate>
+		<Lecturer>Smolyaninov A.V.</Lecturer>
+		<Duration time="Hours">20</Duration>
+		<Score>Credit</Score>
+	</Course>
+</Courses>
