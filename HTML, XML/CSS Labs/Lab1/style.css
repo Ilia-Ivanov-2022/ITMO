@@ -1,0 +1,45 @@
+html{
+	padding-top:20px;
+	background-image(image/button_3.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+body{
+	width:80%;
+	padding:20px;
+	margin:50px auto;
+	border-radius:30px;
+	box-shadow:20px 20px 20px rgba(0,0,0,.5);
+	background-color:rgba(210, 180, 140, .8);
+}
+h1{
+	font-size:italic;
+	color:#8B3A3A;
+	font-size:4em;
+	margin:0;
+}
+p{
+	font-size:1.5em;
+	line-height:120%;
+	margin-top:20px;
+	margin-left:70px;
+}
+h2{
+	color:#EE0000;
+	font-weight:normal;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:2em;
+	border-bottom:3px ##EE0000 solid;
+	padding: 0 0 2px 60px;
+	margin: 0;
+}
+.info, blockquote{
+	color: #8B3A3A;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	margin-left: 0;
+	margin-bottom:25px;
+}
+blockquote{
+	font-style:italic;
+}
