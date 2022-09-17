@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.Lab1.Ex2.DBConnection", "ITMO.ADO.NET.Lab1.Ex2.DBConnection\ITMO.ADO.NET.Lab1.Ex2.DBConnection.csproj", "{128D3267-D516-467D-960C-7D48B62674E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.Lab1.Ex3.DBConn.ErrorHandling", "ITMO.ADO.NET.Lab1.Ex3.DBConnection\ITMO.ADO.NET.Lab1.Ex3.DBConn.ErrorHandling.csproj", "{B4B26182-3736-48B9-873F-CEE944099FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.Lab1.Ex4.DBConn.StateChange", "ITMO.ADO.NET.Lab1.Ex4.DBConn.StateChange\ITMO.ADO.NET.Lab1.Ex4.DBConn.StateChange.csproj", "{8D91C25B-DB6B-432F-A3F7-76447A5EDC3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.Lab1.Ex5.DBConn.ConfigManager", "ITMO.ADO.NET.Lab1.Ex5.DBConn.ConfigManager\ITMO.ADO.NET.Lab1.Ex5.DBConn.ConfigManager.csproj", "{CA580B7C-9009-409E-92CE-855630F51AE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.Lab2.Ex1.DBConn.ReadScalarValue", "ITMO.ADO.NET.Lab2.Ex1.DBConn.ReadScalarValue\ITMO.ADO.NET.Lab2.Ex1.DBConn.ReadScalarValue.csproj", "{00FADB6E-D300-4674-8919-C0787ED32BB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.Lab2.Ex2.DBConn.ExecuteReader", "ITMO.ADO.NET.Lab2.Ex2.DBConn.ExecuteReader\ITMO.ADO.NET.Lab2.Ex2.DBConn.ExecuteReader.csproj", "{A39EF436-DFF5-4DA5-A113-7F57E54AB2DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.Lab2.Ex3.DBConn.Transaction", "ITMO.ADO.NET.Lab2.Ex3.DBConn.Transaction\ITMO.ADO.NET.Lab2.Ex3.DBConn.Transaction.csproj", "{AC1CDD4D-C7D3-487C-901A-386E69F25716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.Lab4.Ex.1.DataSetDesigner", "ITMO.ADO.NET.Lab4.Ex.1.DataSetDesigner\ITMO.ADO.NET.Lab4.Ex.1.DataSetDesigner.csproj", "{72B63C73-7642-42AE-8000-402E4C85489E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.Lab4.Ex2.CreatingDataTable", "ITMO.ADO.NET.Lab4.Ex2.CreatingDataTable\ITMO.ADO.NET.Lab4.Ex2.CreatingDataTable.csproj", "{A8E58DA1-522C-4498-AF12-A57162D6FDE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.Lab4.Ex3.DataAdapterWizard", "ITMO.ADO.NET.Lab4.Ex3.DataAdapterWizard\ITMO.ADO.NET.Lab4.Ex3.DataAdapterWizard.csproj", "{D029ED33-3980-46FF-B50F-4CBE77A708A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.Lab4.Ex4.DataAdapterProgram", "ITMO.ADO.NET.Lab4.Ex4.DataAdapterProgram\ITMO.ADO.NET.Lab4.Ex4.DataAdapterProgram.csproj", "{564FA586-C501-4ABC-8B07-B41F00B1FA9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.Lab4.Ex5.WorkingDataTable", "ITMO.ADO.NET.Lab4.Ex5.WorkingDataTable\ITMO.ADO.NET.Lab4.Ex5.WorkingDataTable.csproj", "{16178123-127E-4EAA-9BE3-4B38316E2F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.Lab4.Ex6.DataViewExample", "ITMO.ADO.NET.Lab4.Ex6.DataViewExample\ITMO.ADO.NET.Lab4.Ex6.DataViewExample.csproj", "{9D64248F-2AC7-45BC-B825-CC4B0E005B5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{128D3267-D516-467D-960C-7D48B62674E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128D3267-D516-467D-960C-7D48B62674E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128D3267-D516-467D-960C-7D48B62674E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128D3267-D516-467D-960C-7D48B62674E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B26182-3736-48B9-873F-CEE944099FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B26182-3736-48B9-873F-CEE944099FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B26182-3736-48B9-873F-CEE944099FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B26182-3736-48B9-873F-CEE944099FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D91C25B-DB6B-432F-A3F7-76447A5EDC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D91C25B-DB6B-432F-A3F7-76447A5EDC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D91C25B-DB6B-432F-A3F7-76447A5EDC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D91C25B-DB6B-432F-A3F7-76447A5EDC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA580B7C-9009-409E-92CE-855630F51AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA580B7C-9009-409E-92CE-855630F51AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA580B7C-9009-409E-92CE-855630F51AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA580B7C-9009-409E-92CE-855630F51AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00FADB6E-D300-4674-8919-C0787ED32BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00FADB6E-D300-4674-8919-C0787ED32BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00FADB6E-D300-4674-8919-C0787ED32BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00FADB6E-D300-4674-8919-C0787ED32BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A39EF436-DFF5-4DA5-A113-7F57E54AB2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A39EF436-DFF5-4DA5-A113-7F57E54AB2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39EF436-DFF5-4DA5-A113-7F57E54AB2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A39EF436-DFF5-4DA5-A113-7F57E54AB2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1CDD4D-C7D3-487C-901A-386E69F25716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1CDD4D-C7D3-487C-901A-386E69F25716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1CDD4D-C7D3-487C-901A-386E69F25716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1CDD4D-C7D3-487C-901A-386E69F25716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B63C73-7642-42AE-8000-402E4C85489E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B63C73-7642-42AE-8000-402E4C85489E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B63C73-7642-42AE-8000-402E4C85489E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B63C73-7642-42AE-8000-402E4C85489E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E58DA1-522C-4498-AF12-A57162D6FDE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E58DA1-522C-4498-AF12-A57162D6FDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E58DA1-522C-4498-AF12-A57162D6FDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E58DA1-522C-4498-AF12-A57162D6FDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D029ED33-3980-46FF-B50F-4CBE77A708A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D029ED33-3980-46FF-B50F-4CBE77A708A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D029ED33-3980-46FF-B50F-4CBE77A708A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D029ED33-3980-46FF-B50F-4CBE77A708A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{564FA586-C501-4ABC-8B07-B41F00B1FA9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{564FA586-C501-4ABC-8B07-B41F00B1FA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{564FA586-C501-4ABC-8B07-B41F00B1FA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{564FA586-C501-4ABC-8B07-B41F00B1FA9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16178123-127E-4EAA-9BE3-4B38316E2F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16178123-127E-4EAA-9BE3-4B38316E2F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16178123-127E-4EAA-9BE3-4B38316E2F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16178123-127E-4EAA-9BE3-4B38316E2F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D64248F-2AC7-45BC-B825-CC4B0E005B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D64248F-2AC7-45BC-B825-CC4B0E005B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D64248F-2AC7-45BC-B825-CC4B0E005B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D64248F-2AC7-45BC-B825-CC4B0E005B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3472453-2F63-4E03-8C5F-C2FD4AF0D52C}
+	EndGlobalSection
+EndGlobal
