@@ -1,1 +1,1 @@
-# ADO.NET Labs are here.
+# ADO.NET Labs.
