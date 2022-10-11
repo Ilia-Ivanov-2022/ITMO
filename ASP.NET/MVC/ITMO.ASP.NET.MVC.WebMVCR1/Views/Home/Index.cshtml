@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Главная";
+    }
+
+<div class="row">
+    <div class="col-md-4">
+        <h3>Программы кредитования</h3> 
+        <table class="table-bordered">
+            <tr>
+                <td><p>Тип кредита</p></td>
+                <td><p>Период кредитования</p></td>
+                <td><p>Максимальная сумма</p></td>
+                <td><p>Ставка %</p></td>
+            </tr> 
+            @foreach (var c in ViewBag.Credits)
+            {
+                <tr>
+                    <td><p>@c.Head</p></td>
+                    <td><p>@c.Period</p></td>
+                    <td><p>@c.Sum</p></td>
+                    <td><p>@c.Procent %</p></td>
+                </tr>
+}
+        </table> 
+        <p><a class="btn btn-default" href="/Home/CreateBid">
+            Подать заявку на получение кредита &raquo;</a></p>
+    </div>
+</div>

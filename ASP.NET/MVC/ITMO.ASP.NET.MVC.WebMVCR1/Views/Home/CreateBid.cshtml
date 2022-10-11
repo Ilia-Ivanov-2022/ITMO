@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "CreateBid";
+}
+
+<h2>CreateBid</h2>
+
+<h3>Существующие заявки</h3>
+<table class=" = table">
+    <tr>
+        <td><p>Имя</p></td>
+        <td><p>Тип кредита </p></td>
+    </tr> 
+    @foreach (var c in ViewBag.Bids)
+    {
+        <tr><td><p>@c.Name</p></td>
+        <td><p>@c.CreditHead </p></td></tr>
+}
+</table>
+<h3>Форма подачи заявки по программам кредитования</h3>
+<form method="post" action="">
+    <table class="table">
+        <tr><td><p>Введите свое имя </p></td><td><input type="text" name="Name" /> </td></tr>
+        <tr>
+            <td><p>Выберите из списка тип кредита :</p></td>
+            <td>
+                <select name="CreditHead">
+                    @foreach (var cr in ViewBag.Credits)
+                    {
+                        <option>@cr.Head</option>
+                    }
+                </select>
+            </td>
+        </tr>
+        <tr><td><input type="submit" value="Отправить" /> </td><td></td></tr>
+    </table>
+</form>
