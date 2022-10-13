@@ -1,0 +1,37 @@
+﻿@{ ViewBag.Title = "Главная"; }
+
+<div class="row">
+    <div class="col-md-4">
+        <h3>Список студентов</h3>
+        <table class="table">
+            <tr>
+                <td><p>Id</p></td>
+                <td><p>Имя</p></td>
+                <td><p>Фамилия</p></td>
+                <td><p>ADO.NET</p></td>
+                <td><p>ASP.NET</p></td>
+                <td><p>Java</p></td>
+            </tr>
+            @foreach (var s in ViewBag.Students)
+            {
+                <tr>
+                    <td><p>@s.Id</p></td>
+                    <td><p>@s.FirstName</p></td>
+                    <td><p>@s.LastName</p></td>
+                    <td><p>@s.AdoMark</p></td>
+                    <td><p>@s.AspMark</p></td>
+                    <td><p>@s.JavaMark</p></td>
+                </tr>
+            }
+        </table>
+        <div>
+            <p><a class="btn btn-default" href="/Home/CreateStudent">Добавить данные нового студента &raquo;</a></p>
+
+            <p><a class="btn btn-default" href="/Home/StudentsStatistics">Пять лучших и пять худших студентов &raquo;</a></p>
+            <p><a class="btn btn-default" href="/Home/TotalScore">Посмотреть сумму баллов &raquo;</a></p>
+        </div>
+        
+        <p><a class="btn-default" </p>
+
+    </div>
+</div>

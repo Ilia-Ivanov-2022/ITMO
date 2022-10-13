@@ -1,0 +1,58 @@
+﻿@{ ViewBag.Title = "Внести данные нового студента";}
+
+<div class="row">
+    <div class="col-md-4">
+        <div><h3>Внесите данные:</h3></div>
+        
+        <form method="post" action="">
+            @using (Html.BeginForm("Index", "CreateStudent", FormMethod.Post))
+            {
+
+                <table class="table">
+                    <tr>
+                        <td>
+                            <input type="hidden" value="@ViewBag.Id" name="Id" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>Введите Имя </p></td>
+                        <td>
+                            <input class="text-box single-line"
+                                   data-val="true"
+                                   data-val-required="First Name field is required."
+                                   id="Id"
+                                   type="text" name="FirstName" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p asp-for="LastName">Введите Фамилию </p></td>
+                        <td><input type="text" name="LastName" asp-for="lastName" /></td>
+                        <span asp-validation-for="Name" />
+                    </tr>
+                    <tr>
+                        <td><p>Введите оценку по ADO.NET </p></td>
+                        <td><input type="text" name="AdoMark" /></td>
+                    </tr>
+                    <tr>
+                        <td><p>Введите оценку по ASP.NET </p></td>
+                        <td><input type="text" name="AspMark" /></td>
+                    </tr>
+                    <tr>
+                        <td><p>Введите оценку по Java</p></td>
+                        <td><input type="text" name="JavaMark" /></td>
+                    </tr>
+
+                    <tr><td><input type="submit" value="Отправить" /> </td><td></td></tr>
+                </table>
+
+            }
+            <script src="@Url.Content("~/Scripts/jquery-3.4.1.min.js")"
+                    type="text/javascript"></script>
+            <script src="@Url.Content("~/Scripts/jquery.validate.js")"
+                    type="text/javascript"></script>
+            <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.js")"
+                    type="text/javascript"></script>
+            @Scripts.Render("~/scripts/jquery-3.4.1.js")
+
+        </form>
+    </div>
