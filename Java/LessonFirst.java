@@ -8,37 +8,37 @@ import java.util.Scanner;
 public class LessonFirst {
     public static void main(String[] args) {
 
-//        // Exercise 1.
-//        System.out.println("Я \nхорошо \nзнаю \nJava.");
-//
-//        // Exercise 2.
-//        System.out.println(( 46 + 10 ) * ( 10 / 3 ));
-//        System.out.println(( 29 ) * ( 4 ) * (- 15 ));
-//
-//        // Exercise 3.
-//        int number = 10500;
-//        int result3 = (number/10)/10;
-//        System.out.println(result3);
-//
-//        // Exercise 4.
-//        float x1 = 3.6f;
-//        float x2 = 4.1f;
-//        float x3 = 5.9f;
-//
-//        float result4 = x1 * x2 * x3;
-//        System.out.println(result4);
-//
-//        // Exercise 5.
-//        Scanner scanner5 = new Scanner(System.in);
-//        int[] arr = new int[3];
-//        // Input.
-//        for(int i = 0; i < arr.length; i++){
-//            System.out.print("Please, enter a number: ");
-//            arr[i] = scanner5.nextInt();
-//        }
-//        // Output.
-//        for(int j = 0; j < arr.length; j++)
-//            System.out.println(arr[j]);
+        // Exercise 1.
+        System.out.println("Я \nхорошо \nзнаю \nJava.");
+
+        // Exercise 2.
+        System.out.println(( 46 + 10 ) * ( 10 / 3 ));
+        System.out.println(( 29 ) * ( 4 ) * (- 15 ));
+
+        // Exercise 3.
+        int number = 10500;
+        int result3 = (number/10)/10;
+        System.out.println(result3);
+
+        // Exercise 4.
+        float x1 = 3.6f;
+        float x2 = 4.1f;
+        float x3 = 5.9f;
+
+        float result4 = x1 * x2 * x3;
+        System.out.println(result4);
+
+        // Exercise 5.
+        Scanner scanner5 = new Scanner(System.in);
+        int[] arr = new int[3];
+        // Input.
+        for(int i = 0; i < arr.length; i++){
+            System.out.print("Please, enter a number: ");
+            arr[i] = scanner5.nextInt();
+        }
+        // Output.
+        for(int j = 0; j < arr.length; j++)
+            System.out.println(arr[j]);
 
 //        Exercise 6.
 //        Scanner
