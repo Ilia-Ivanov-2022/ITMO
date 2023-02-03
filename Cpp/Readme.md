@@ -7,3 +7,5 @@
 Test - Calculation of polygon area.
 
 ## Lab #2
+1. if - else if - else<br>
+2. Switch<br>
